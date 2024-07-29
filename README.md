@@ -34,13 +34,13 @@ python main.py -g 10 -f example -z 0.8 -m 0.001 -n 100 -q 2
 ## Thermodynamic Results
 
 ### Ising Model (Q=2)
-For the $Q=2$ case a second order phase tranisition can be observed. The vertical line indicates the analytical *Onsager* solution.[^4]
+For the $Q=2$ case a second order phase tranisition can be observed. The vertical line indicates the analytical *Onsager* solution.[^4] The label *HI* indicated that only the energy interval [-2;0] was sampled and then mirrored. The results match thermodynamic calculations reported in the literature.[^2]
 ![ising_lnge](./figures/ising_lnge.png)
 ![ising_lnge](./figures/ising_C.png)
 ![ising_lnge](./figures/ising_S.png)
 
 ### Higher Order (Q=8)
-For the $Q=8$ case a first order phase tranisition can be observed.
+For the $Q=8$ case a first order phase tranisition can be observed. The results match thermodynamic calculations reported in the literature.[^2]
 ![ising_lnge](./figures/q8_lnge.png)
 ![ising_lnge](./figures/q8_C.png)
 ![ising_lnge](./figures/q8_S.png)
