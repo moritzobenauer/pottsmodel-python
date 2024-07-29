@@ -1,17 +1,4 @@
-
-
-
-
-
-
-
-
-## To-Do
-
-
-
-
-![raccoon](./figures/logo-wide.png)
+![logo](./figures/logo-wide.png)
 # pottsmodel-python
 
  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -49,14 +36,14 @@ python main.py -g 10 -f example -z 0.8 -m 0.001 -n 100 -q 2
 ### Ising Model (Q=2)
 For the $Q=2$ case a second order phase tranisition can be observed. The vertical line indicates the analytical *Onsager* solution.
 ![ising_lnge](./figures/ising_lnge.png)
-![ising_lnge](./figures/ising_c.png)
-![ising_lnge](./figures/ising_s.png)
+![ising_lnge](./figures/ising_C.png)
+![ising_lnge](./figures/ising_S.png)
 
 ### Higher Order (Q=8)
 For the $Q=8$ case a first order phase tranisition can be observed.
 ![ising_lnge](./figures/q8_lnge.png)
-![ising_lnge](./figures/q8_c.png)
-![ising_lnge](./figures/q8_s.png)
+![ising_lnge](./figures/q8_C.png)
+![ising_lnge](./figures/q8_S.png)
 
 ## Known bugs and To-Do's
 
